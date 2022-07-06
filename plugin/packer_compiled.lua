@@ -74,10 +74,25 @@ _G.packer_plugins = {
     path = "/home/andreamboni/.local/share/nvim/site/pack/packer/start/aquarium-vim",
     url = "https://github.com/frenzyexists/aquarium-vim"
   },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/andreamboni/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/andreamboni/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/gruvbox-community/gruvbox"
+  },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/home/andreamboni/.local/share/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/andreamboni/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["packer.nvim"] = {
     loaded = true,
